@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight, Download } from 'lucide-react'
+import { Starfield } from '@/components/ui/starfield-1'
 
 const roles = [
   'Co-Founder & Marketing Manager @ AES',
@@ -23,6 +24,15 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex flex-col justify-center overflow-hidden px-6 pt-16"
     >
+      {/* Starfield background */}
+      <Starfield
+        bgColor="rgba(8,8,8,1)"
+        starColor="rgba(242,237,232,0.8)"
+        speed={0.6}
+        quantity={350}
+        mouseAdjust
+      />
+
       {/* Ambient glow blobs */}
       <div className="pointer-events-none absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-[#FF440006] blur-[140px]" />
       <div className="pointer-events-none absolute bottom-1/4 right-1/4 w-[300px] h-[300px] rounded-full bg-[#FF440004] blur-[100px]" />
