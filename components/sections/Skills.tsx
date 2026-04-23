@@ -12,6 +12,8 @@ const categories = [
       'Lead Generation',
       'WhatsApp Marketing',
       'SEO',
+      'ManyChat',
+      'Systeme.io',
       'Canva',
       'CapCut',
       'Ad Copy',
@@ -50,9 +52,9 @@ const categories = [
     ],
   },
   {
-    title: 'Design & Content',
+    title: 'Content Produktion',
     icon: '⬡',
-    tags: ['Canva', 'CapCut', 'AI Image Generation', 'Brand Identity', 'Figma'],
+    tags: ['Canva', 'CapCut', 'AI Image Generation', 'Figma'],
   },
   {
     title: 'Engineering & CAD',
@@ -62,7 +64,7 @@ const categories = [
   {
     title: 'Sprachen',
     icon: '⬡',
-    tags: ['Türkisch (Muttersprache)', 'Deutsch (C1)', 'Englisch (B2)'],
+    tags: ['Türkisch (Muttersprache)', 'Deutsch (C1)', 'Englisch (B1)'],
   },
 ]
 

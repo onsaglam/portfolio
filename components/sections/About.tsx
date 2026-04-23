@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 
 const stats = [
-  { value: '50+', label: 'Beratene Studierende' },
+  { value: '300+', label: 'Beratene Studierende' },
   { value: '3', label: 'Gegründete Unternehmen' },
   { value: '4+', label: 'Jahre Werkstudent-Erfahrung' },
   { value: '3', label: 'Sprachen' },
@@ -38,15 +38,14 @@ export default function About() {
             transition={{ delay: 0.1 }}
           >
             <p className="font-mono text-[#F2EDE8] text-base leading-[1.85] mb-6">
-              Ich studiere Elektrotechnik und Informationstechnik an der Universität Bremen
-              und habe parallel drei Unternehmen gegründet. Heute leite ich als Co-Founder
-              die Bildungsberatung AES, die über 50 Studierende auf dem Weg an deutsche
-              Hochschulen begleitet.
+              Marketing & Funnel Strategist mit technischem Hintergrund. Ich habe drei
+              Unternehmen aufgebaut und leite heute als Co-Founder die Bildungsberatung AES —
+              mit über 300 Studierenden, die wir auf dem Weg an deutsche Hochschulen begleitet haben.
             </p>
             <p className="font-mono text-[#888888] text-sm leading-[1.85]">
-              Meine Stärke liegt in der Verbindung von Technik und Marketing. Auf Türkisch
-              habe ich das bereits bewiesen — jetzt bringe ich dieselbe Energie auf den
-              deutschen Markt.
+              Mein Vorteil: Ich baue nicht nur Funnels — ich setze sie selbst technisch um.
+              Von WhatsApp-Automationen bis zu vollständigen Landingpages. Auf Türkisch bereits
+              bewiesen, jetzt auf dem deutschen Markt.
             </p>
           </motion.div>
 
