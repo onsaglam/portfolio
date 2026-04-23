@@ -109,6 +109,7 @@ export default function Hero() {
                 href="/onat-can-cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                download="Lebenslauf_Onat_Can_Saglam.pdf"
                 className="inline-flex items-center gap-2 px-7 py-3.5 border border-[#444444] text-[#F2EDE8] font-sans font-semibold text-sm hover:border-[#FF4400] hover:text-[#FF4400] transition-colors duration-200"
               >
                 CV herunterladen <Download size={16} />
